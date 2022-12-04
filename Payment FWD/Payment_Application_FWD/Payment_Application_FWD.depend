@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1666717910 source:c:\users\shorouk shehab\documents\c++\payment_application_fwd\card\card.c
+	"card.h"
+	<string.h>
+	<stdio.h>
+
+1666718026 c:\users\shorouk shehab\documents\c++\payment_application_fwd\card\card.h
+	"../std_types.h"
+
+1666717847 c:\users\shorouk shehab\documents\c++\payment_application_fwd\std_types.h
+
+1666717910 source:c:\users\shorouk shehab\documents\c++\payment_application_fwd\server\server.c
+	"server.h"
+
+1666718043 c:\users\shorouk shehab\documents\c++\payment_application_fwd\server\server.h
+	"../Terminal/terminal.h"
+
+1666718058 c:\users\shorouk shehab\documents\c++\payment_application_fwd\terminal\terminal.h
+	"../std_types.h"
+	"../Card/card.h"
+
+1666717910 source:c:\users\shorouk shehab\documents\c++\payment_application_fwd\terminal\terminal.c
+	"terminal.h"
+
+1666717847 source:c:\users\shorouk shehab\documents\c++\payment_application_fwd\application\application.c
+	"application.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1666718065 c:\users\shorouk shehab\documents\c++\payment_application_fwd\application\application.h
+	"../Card/card.h"
+	"../Server/server.h"
+	"../Terminal/terminal.h"
+
